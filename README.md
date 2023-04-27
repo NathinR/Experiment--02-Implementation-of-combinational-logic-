@@ -16,11 +16,6 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 ## Theory
  Logic gates are electronic circuits which perform logical functions on one or more inputs to produce one output.
 
-### Using NAND gates
-NAND gate is actually a combination of two logic gates i.e. AND gate followed by NOT gate. So its output is complement of the output of an AND gate.This gate can have minimum two inputs, output is always one. By using only NAND gates, we can realize all logic functions: AND, OR, NOT, X-OR, X-NOR, NOR. So this gate is also called as universal gate. First note that the entire expression is inverted and we have three terms ANDed. This means that we must use a 3-input NAND gate. Each of the three terms is, itself, a NAND expression. Finally, negated single terms can be generates with a 2-input NAND gate acting as an inverted.
-
-F=((C'.B.A)'(D'.C.A)'(C.B'.A)')'
-
 ### Logic Diagram
 Using NOR gates NOR gate is actually a combination of two logic gates: OR gate followed by NOT gate. So its output is complement of the output of an OR gate. This gate can have minimum two inputs, output is always one. By using only NOR gates, we can realize all logic functions: AND, OR, NOT, Ex-OR, Ex-NOR, NAND. So this gate is also called universal gate. Designing a circuit with NOR gates only uses the same basic techniques as designing a circuit with NAND gates; that is, the application of deMorgan’s theorem. The only difference between NOR gate design and NAND gate design is that the former must eliminate product terms and the later must eliminate sum terms.
 
@@ -61,7 +56,7 @@ endmodule
 ![image](https://user-images.githubusercontent.com/118679646/233277425-6d60de16-02b9-4934-be5a-f489660c9ab4.png)
 
 ## Truth Table:
-![WhatsApp Image 2023-04-20 at 12 06 45](https://user-images.githubusercontent.com/118679646/233279851-359c48eb-2453-4766-9b76-99e17640d479.jpg)
+![WhatsApp Image 2023-04-27 at 10 50 53](https://user-images.githubusercontent.com/118679646/234766472-e09546ea-fffe-408a-8e5d-0a87a90bdeee.jpg)
 
 ## Result:
 Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
