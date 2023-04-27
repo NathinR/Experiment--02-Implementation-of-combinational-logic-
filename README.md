@@ -1,25 +1,17 @@
 # Experiment--02-Implementation-of-combinational-logic
-Implementation of combinational logic gates
- 
+
 ## AIM:
-To implement the given logic function verify its operation in Quartus using Verilog programming.
- F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
+To implement the given logic function and verify its operation in Quartus using Verilog programming.
+
+F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
+
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
  
  
  
 ## Equipments Required:
-## Hardware – PCs, Cyclone II , USB flasher
+### Hardware – PCs, Cyclone II , USB flasher
 ## Software – Quartus prime
-
-
-## Theory
- Logic gates are electronic circuits which perform logical functions on one or more inputs to produce one output.
-
-### Logic Diagram
-Using NOR gates NOR gate is actually a combination of two logic gates: OR gate followed by NOT gate. So its output is complement of the output of an OR gate. This gate can have minimum two inputs, output is always one. By using only NOR gates, we can realize all logic functions: AND, OR, NOT, Ex-OR, Ex-NOR, NAND. So this gate is also called universal gate. Designing a circuit with NOR gates only uses the same basic techniques as designing a circuit with NAND gates; that is, the application of deMorgan’s theorem. The only difference between NOR gate design and NAND gate design is that the former must eliminate product terms and the later must eliminate sum terms.
-
-F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 
 ## Program:
 /*
@@ -59,4 +51,4 @@ endmodule
 ![WhatsApp Image 2023-04-27 at 10 50 53](https://user-images.githubusercontent.com/118679646/234766472-e09546ea-fffe-408a-8e5d-0a87a90bdeee.jpg)
 
 ## Result:
-Thus the given logic functions are implemented using  and their operations are verified using Verilog programming.
+Thus the given logic functions are implemented using  logic gates.
